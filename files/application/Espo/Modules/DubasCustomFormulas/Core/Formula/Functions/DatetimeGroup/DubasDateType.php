@@ -1,5 +1,4 @@
 <?php
-
 namespace Espo\Modules\DubasCustomFormulas\Core\Formula\Functions\DatetimeGroup;
 
 use \Espo\Core\Exceptions\Error;
