@@ -4,7 +4,7 @@ namespace Espo\Modules\DubasCustomFormulas\Core\Formula\Functions\DatetimeGroup;
 
 use \Espo\Core\Exceptions\Error;
 
-class DubasDate extends \Espo\Core\Formula\Functions\Base
+class DubasDateType extends \Espo\Core\Formula\Functions\Base
 {
     public function process(\StdClass $item)
     {
