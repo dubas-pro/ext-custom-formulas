@@ -26,18 +26,17 @@ class DubasDateType extends \Espo\Core\Formula\Functions\Base
 
         if 
         (
-            count($item->value) < 3
+            count($item->value) < 2
         ) 
         {
-             throw new Error("You have to provide 3 parameters to DubasDate formula");
+             throw new Error("You have to provide 2 parameters to DubasDate formula");
         }
 
         $formulaDate    = $this->evaluate($item->value[0]);
         $formulaValue   = $this->evaluate($item->value[1]);
-        $formulaPeriod  = $this->evaluate($item->value[2]);
 
         $date = new \DateTime($formulaDate);
-        $date->modify( $formulaValue . ' ' . $formulaPeriod); 
+        $date->modify( $formulaValue ); 
         
         return $date->format('Y-m-d');
     }
