@@ -1,0 +1,52 @@
+{
+    "functionList": [
+        "__APPEND__",
+        {
+            "name": "datetime\\DubasDate",
+            "insertText": "datetime\\dubasDate(VALUE_1, VALUE_2)"
+        },
+        {
+            "name": "string\\DubasBase64Encode",
+            "insertText": "string\\dubasBase64Encode(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasBase64Decode",
+            "insertText": "string\\dubasBase64Decode(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasUrlEncode",
+            "insertText": "string\\dubasUrlEncode(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasUrlDecode",
+            "insertText": "string\\dubasUrlDecode(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasUniqueId",
+            "insertText": "string\\dubasUniqueId(VALUE_1, VALUE_2)"
+        },
+        {
+            "name": "string\\DubasMd5",
+            "insertText": "string\\dubasMd5(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasSha1",
+            "insertText": "string\\dubasSha1(VALUE_1)"
+        },
+        {
+            "name": "string\\DubasStrlen",
+            "insertText": "string\\dubasStrlen(VALUE_1)"
+        }
+    ],
+    "functionClassNameMap": {
+        "datetime\\dubasDate": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\DatetimeGroup\\DubasDateType",
+        "string\\dubasBase64Encode": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasBase64EncodeType",
+        "string\\dubasBase64Decode": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasBase64DecodeType",
+        "string\\dubasUrlEncode": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasUrlEncodeType",
+        "string\\dubasUrlDecode": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasUrlDecodeType",
+        "string\\dubasUniqueId": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasUniqueIdType",
+        "string\\dubasMd5": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasMd5Type",
+        "string\\dubasSha1": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasSha1Type",
+        "string\\dubasStrlen": "\\Espo\\Modules\\DubasCustomFormulas\\Core\\Formula\\Functions\\StringGroup\\DubasStrlenType"
+    }
+}
